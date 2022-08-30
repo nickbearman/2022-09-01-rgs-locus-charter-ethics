@@ -1,0 +1,373 @@
+---
+title: "The Locus Charter and Ethics within GIScience"
+subtitle: "Thu 1st Sept 2022 | RGS-IGB"
+author: "Nick Bearman"
+format: revealjs
+editor: visual
+format:
+  revealjs:
+    slide-number: true
+---
+
+We're going to talk a little bit about Ethics and why I think they are important
+
+::: incremental
+-   The Locus Charter
+-   Examples from Practical GeoAI Ethics Workshop at OS
+-   How it applies to Spatial Data
+-   How it applies to GIScience
+:::
+
+------------------------------------------------------------------------
+
+# When we are thinking about ethics
+
+# Data is key
+
+-   Data
+-   Big data
+-   Spatial data
+-   Geospatial data ....
+
+::: fragment
+"Datafication": expressing and managing the world with data - *Jeremy Morley*
+:::
+
+::: notes
+This is not news to us
+:::
+
+## Applying ethics is a journey
+
+-   How you apply ethics has no "one" answer
+
+    -   There is no "ethics in geospatial expert"
+
+::: fragment
+-   It is like questions my course participants ask:
+
+    -   "How can I apply time series analysis to spatial data?"
+:::
+
+::: fragment
+-   It depends!
+:::
+
+::: fragment
+-   What are you trying to achieve?
+-   What data are you using?
+:::
+
+# The Locus Charter
+
+::: columns
+::: {.column width="50%"}
+![](images/Principles1-5.png){fig-align="center" width="400"}
+:::
+
+::: {.column width="50%"}
+![](images/Principles6-10.png){fig-align="center" width="400"}
+:::
+:::
+
+::: footer
+Image from: https://benchmarkinitiative.com/charter
+:::
+
+::: notes
+**It is a starting point / a framework to think about ethics**
+
+Read through principles
+:::
+
+------------------------------------------------------------------------
+
+These principles are fine, but what do they actually mean?
+
+-   It depends!
+
+::: fragment
+It is a framework, a process:
+
+-   "to support responsible practice when working with location data"
+
+-   "an approach to working with location data, to help people who want to do the right thing work with data in the right way"
+
+-   "a checklist of things to think about"
+:::
+
+------------------------------------------------------------------------
+
+These principles are fine, but what do they actually mean?
+
+-   It depends on your project!
+
+::: fragment
+There are lots of ways of using it.
+:::
+
+::: fragment
+There is no wrong way - we just need to use it
+:::
+
+------------------------------------------------------------------------
+
+# Practical GeoAI Ethics Workshop
+
+::: notes
+**16th June 2022 at Ordnance Survey**
+
+Focus on how to apply this in the real world
+:::
+
+------------------------------------------------------------------------
+
+![](images/Principles1-10.png){fig-align="center" width="800"}
+
+::: notes
+We talked a bit about the principles
+:::
+
+------------------------------------------------------------------------
+
+## Order the Locus Charter Principles
+
+-   We were asked to order the principles
+
+-   From **most important** to **least important**
+
+-   Six groups
+
+-   Quite a bit of variation
+
+------------------------------------------------------------------------
+
+## Founding Principles {.smaller auto-animate="true"}
+
+1.  Realize Opportunities
+2.  Understand Impacts
+3.  Do No Harm
+4.  Protect the Vulnerable
+5.  Address Bias
+6.  Minimize Intrusion
+7.  Minimize Data
+8.  Protect Privacy
+9.  Prevent Identification of Individuals
+10. Provide Accountability
+
+::: notes
+This is as they are on the website
+:::
+
+## Ordering Exercise {.smaller auto-animate="true"}
+
+1.  Do No Harm
+2.  Protect the Vulnerable
+3.  Provide Accountability
+4.  Protect Privacy
+5.  Understand Impacts
+6.  Prevent Identification of Individuals
+7.  Minimize Data
+8.  Address Bias
+9.  Minimize Intrusion
+10. Realize Opportunities
+
+::: notes
+This is our output
+:::
+
+## Ordering Exercise {.smaller}
+
+1.  Do No Harm (#2)
+2.  Protect the Vulnerable (#4)
+3.  Provide Accountability (#10)
+4.  Protect Privacy (#8)
+5.  Understand Impacts (#1)
+6.  Prevent Identification of Individuals (#9)
+7.  Minimize Data (#7)
+8.  Address Bias (#5)
+9.  Minimize Intrusion (#6)
+10. Realize Opportunities (#1)
+
+::: notes
+This is our output (with original positions)
+:::
+
+------------------------------------------------------------------------
+
+![](images/Principles1-10.png){fig-align="center" width="800"}
+
+::: notes
+**Background from Denise McKenzie:\
+** - she presented the principles without numbers\
+- they are not in a specific order\
+- but they are in a specific order\
+- and much discussion was had about this order.\
+- start with what you can do, not what you can't do. (realise opportunities)\
+- supposed to be enabling, not restrictive (do no harm lower down) - *order different here to the website*
+:::
+
+------------------------------------------------------------------------
+
+![](images/Principles1-10-unnumbered.png){fig-align="center" width="800"}
+
+::: notes
+**Background from Denise McKenzie:\
+** - she presented the principles without numbers\
+- they are not in a specific order\
+- but they are in a specific order\
+- and much discussion was had about this order.\
+- start with what you can do, not what you can't do. (realise opportunities)\
+- supposed to be enabling, not restrictive (do no harm lower down) - *order different here to the website*
+:::
+
+------------------------------------------------------------------------
+
+-   Ordering depends on your project
+
+-   There is no specific 'order'
+
+------------------------------------------------------------------------
+
+**Environmental sciences** & **Social sciences**
+
+think about ethics in different ways
+
+::: fragment
+*There is no one path through the forest*
+:::
+
+::: fragment
+::: columns
+::: {.column width="50%"}
+Environmental science focuses on the **environment**
+:::
+
+::: {.column width="50%"}
+Social sciences focuses on **people**
+:::
+:::
+:::
+
+::: fragment
+This is not new to geographers!
+:::
+
+------------------------------------------------------------------------
+
+## Problems with principles
+
+Is they look good and people say yes they to them
+
+::: fragment
+But does this impact what actually happens?
+:::
+
+::: fragment
+-   *Often no*
+:::
+
+::: fragment
+Who is accountable?
+:::
+
+::: fragment
+If nobody (or everybody) is accountable, nothing happens
+
+-   *Jacqui Ayling, Moving from Principles to Practice*
+:::
+
+------------------------------------------------------------------------
+
+## So, how do we apply them?
+
+-   Jo Walsh & Mel Marochov, Ordnance Survey
+
+-   AI / Deep Learning Models
+
+-   **Model Cards** to document their machine learning models
+
+    -   How they can be used
+    -   Ethical considerations that should go hand-in-hand with model development
+        -   Bias in the input data
+        -   Energy cost to run the model
+    -   Attempted to automate as much as possible - otherwise it won't get done
+
+::: footer
+Paper at: https://arxiv.org/abs/1810.03993
+:::
+
+------------------------------------------------------------------------
+
+## So, how do we apply them?
+
+-   Ruth Bowyer, Alan Turing Institute / Kings College London, [TwinsUK](twinsuk.ac.uk)
+
+-   Using individuals data in a range of research projects
+
+-   They have a research panel with participants on it
+
+-   Engagement with participants is key in their trust in the research
+
+-   Being open with their research builds confidence with participants data
+
+------------------------------------------------------------------------
+
+## So, how do we apply them?
+
+-   Jeni Tennison, [Connected by Data](connectedbydata.org)
+
+-   Public Trust is key
+
+-   Value jugdements are needed to enact the Locus Charter principles
+
+-   **Who** is making these value judgements is key
+
+-   Currently there is a lot of **theory** but not a lot of **implimentation**
+
+------------------------------------------------------------------------
+
+### Useful resources:
+
+-   Case Studies: Responsible and ethical use of location data with Doug Specht - <https://www.rgs.org/schools/teaching-resources/responsible-and-ethical-use-of-location-data-with/>
+
+-   ODI Benchmark: Data Ethics Maturity Model <https://theodi.org/article/data-ethics-maturity-model-benchmarking-your-approach-to-data-ethics/?new>
+
+-   W3C Responsible Use of Spatial Data: <https://w3c.github.io/sdw/responsible-use/>
+
+::: notes
+RGS - useful for schools / a-level, but good introduction ODI - how does your organisation think about ethics? What are the next steps? W3C - technical note, some interesting discussions
+:::
+
+------------------------------------------------------------------------
+
+## How do we apply this to our work?
+
+-   a question for us
+
+------------------------------------------------------------------------
+
+### *An aside - particularly for ERCs*
+
+One thing that came clearly to me was this area has two sides:
+
+-   policy side
+-   practical implementation side
+
+They are related - but know what you are interested in.
+
+I'm not interested in policy - just practical implementation.
+
+How do we view this? How do teach this?
+
+*What the policies are - to me, this is less important.*
+
+## Thanks very much!
+
+Questions?
+
+Nick Bearman \| @nickbearmanuk
+
+nick\@geospatialtrainingsolutions.co.uk
+
+Slides:
