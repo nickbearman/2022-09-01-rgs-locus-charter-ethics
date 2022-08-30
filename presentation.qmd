@@ -24,6 +24,8 @@ Slides at: https://nickbearman.github.io/2022-09-01-rgs-locus-charter-ethics
 
 :::
 
+<!-- to update, run quarto publish gh-pages presentation.qmd in terminal -->
+
 ------------------------------------------------------------------------
 
 # When we are thinking about ethics
