@@ -18,6 +18,12 @@ We're going to talk a little bit about Ethics and why I think they are important
 -   How it applies to GIScience
 :::
 
+::: footer
+
+Slides at: https://nickbearman.github.io/2022-09-01-rgs-locus-charter-ethics
+
+:::
+
 ------------------------------------------------------------------------
 
 # When we are thinking about ethics
@@ -370,4 +376,4 @@ Nick Bearman \| @nickbearmanuk
 
 nick\@geospatialtrainingsolutions.co.uk
 
-Slides:
+Slides: https://nickbearman.github.io/2022-09-01-rgs-locus-charter-ethics
